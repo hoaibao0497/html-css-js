@@ -1,0 +1,55 @@
+main {
+    width: 93%;
+    margin: 10px 50px;
+}
+
+.main-banner {
+    position: relative;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.gallery-img {
+    margin: 0 15px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.button-img {
+    width: 95%;
+    position: absolute;
+    min-height: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0;
+}
+
+.button-img:hover {
+    width: 95%;
+    position: absolute;
+    min-height: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 1;
+}
+
+.button-img a {
+    font-size: 30px;
+    width: 55px;
+    height: 55px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 50%;
+}

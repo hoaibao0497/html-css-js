@@ -1,0 +1,182 @@
+.navbar .logo img {
+    /* display: flex; */
+    width: 120px;
+    height: 40px;
+    margin: 15px 30px;
+}
+
+.menu-list {
+    display: flex;
+    /* width: 20%; */
+    flex-flow: column wrap;
+    position: relative;
+}
+
+
+/* .menu-list ul li {
+    padding: 10px 30px;
+
+} */
+
+
+/* .menu-list li a {
+    display: none;
+    border-left: 3px solid #7200a1;
+} */
+
+.menu-list li a {
+    display: flex;
+    color: rgba(255, 255, 255, .8);
+    font-weight: 600;
+    padding: 7px 28px;
+    cursor: pointer;
+    border-left: 3px solid rgba(114, 0, 161, 0);
+}
+
+.menu-list li a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.menu-list a>span {
+    padding: 5px 15px;
+    font-size: 13px;
+}
+
+.line {
+    padding: 15px;
+    width: 150px;
+    position: relative;
+    top: 15px;
+    left: 25px;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+}
+
+
+/* Icons Pseudo */
+
+.person::before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 100;
+    content: "\f8e4";
+    margin-top: 2px;
+    font-size: 21px;
+    width: 21px;
+    height: 28px;
+}
+
+.circle::before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 100;
+    content: "\f8d9";
+    margin-top: 2px;
+    font-size: 21px;
+    width: 21px;
+    height: 28px;
+}
+
+.music::before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 100;
+    content: "\f001";
+    margin-top: 2px;
+    font-size: 21px;
+    width: 21px;
+    height: 28px;
+}
+
+.chart::before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 100;
+    content: "\f64e";
+    margin-top: 2px;
+    font-size: 21px;
+    width: 21px;
+    height: 28px;
+}
+
+.radio::before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 100;
+    content: "\f8dd";
+    margin-top: 2px;
+    font-size: 21px;
+    width: 21px;
+    height: 28px;
+}
+
+.follow::before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 100;
+    content: "\f828";
+    margin-top: 2px;
+    font-size: 21px;
+    width: 21px;
+    height: 28px;
+}
+
+.type::before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 100;
+    content: "\f61f";
+    margin-top: 2px;
+    font-size: 21px;
+    width: 21px;
+    height: 28px;
+}
+
+.star::before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 100;
+    content: "\f005";
+    margin-top: 2px;
+    font-size: 21px;
+    width: 21px;
+    height: 28px;
+}
+
+.video::before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 100;
+    content: "\f144";
+    margin-top: 2px;
+    font-size: 21px;
+    width: 21px;
+    height: 28px;
+}
+
+.menu-list li a:focus {
+    background-color: var(--dark-blur);
+    border-left: 3px solid #7200a1;
+}
+
+
+/* Menu đăng nhập */
+
+.menu-list__login {
+    background-color: var(--purle);
+    color: #ffffff;
+    width: 87%;
+    height: 160px;
+    margin: 50px 15px;
+    border-radius: 17px;
+    /* position: absolute; */
+}
+
+.menu-list__login p {
+    display: flex;
+    margin: 17px 13px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.menu-list__login a {
+    display: flex;
+    text-align: center;
+    color: #ffffff;
+    padding: 8px 35px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin: 5px 28px;
+    background-color: rgba(255, 255, 255, .1);
+}
